@@ -1,0 +1,40 @@
+# Installed applications and downloaded release artifacts
+app/
+_downloads/
+dist/
+
+# Portable runtime data and nested profile repository
+data/
+profile/
+.tmp/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Logs, databases, caches, and generated files
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+coverage/
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
